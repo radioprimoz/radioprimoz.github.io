@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radio Primož – Najboljši hiti Slovenije</title>
+<style>
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #071326, #143e81, #080d1c);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main { padding: 30px; max-width: 520px; }
+h1 { font-size: 44px; color: #54d9ff; }
+h2 { font-weight: normal; }
+.player {
+  background: #ffffff18;
+  border-radius: 20px;
+  padding: 25px;
+  margin-top: 30px;
+}
+audio { width: 100%; margin-top: 15px; }
+a { color: #70e5ff; }
+</style>
+</head>
+<body>
+<main>
+  <h1>📻 RADIO PRIMOŽ</h1>
+  <h2>Najboljši hiti Slovenije 🎶</h2>
+  <p>Slovenske in tuje uspešnice na enem mestu!</p>
+  <div class="player">
+    <h2>🔴 POSLUŠAJ V ŽIVO</h2>
+    <audio controls preload="none">
+      <source src="https://eu4.fastcast4u.com:2564/;" type="audio/mpeg">
+      Tvoj brskalnik ne podpira predvajalnika.
+    </audio>
+    <p>Za poslušanje pritisni ▶</p>
+  </div>
+  <p>Radio Primož – glasba za vsak dan!</p>
+</main>
+</body>
+</html>
